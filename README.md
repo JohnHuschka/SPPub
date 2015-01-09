@@ -1,6 +1,6 @@
 SharePoint Samples
 ==========================================
-> This is a collection of SharePoint samples & demos.  See **[The Coldwater Blog]{http://coldwatersoftware.com/perspectives/)** for additional information. 
+> This is a collection of SharePoint samples & demos.  See **[The Coldwater Blog](http://coldwatersoftware.com/perspectives/)** for additional information. 
 
 Samples in this Repo
 --------------------
