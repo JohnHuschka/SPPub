@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d73785c7-8760-4335-9844-8a492c1b2f83" solutionId="d73785c7-8760-4335-9844-8a492c1b2f83" resetWebServer="false" sharePointProductVersion="15.0" name="ProxyPage" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="43ae9ecb-452d-4228-bae8-2836eb60177c" />
+    <featureReference itemId="e0d64197-9b04-497a-a730-0e04076521ab" />
+  </features>
+</package>

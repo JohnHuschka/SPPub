@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="DataProxyScripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="angular.js" Target="DataProxyScripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.min.js" Target="DataProxyScripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="DataProxyScripts\" Type="ElementFile" />
+    <ProjectItemFile Source="smart-table.debug.js" Target="DataProxyScripts\" Type="ElementFile" />
+    <ProjectItemFile Source="credentialsAJSApp.js" Target="DataProxyScripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DataProxyScripts">
+    <File Path="DataProxyScripts\angular.js" Url="Lists/DataProxyScripts/angular.js" />
+    <File Path="DataProxyScripts\angular.min.js" Url="Lists/DataProxyScripts/angular.min.js" />
+    <File Path="DataProxyScripts\jquery-1.9.1.min.js" Url="Lists/DataProxyScripts/jquery-1.9.1.min.js" />
+    <File Path="DataProxyScripts\smart-table.debug.js" Url="Lists/DataProxyScripts/smart-table.debug.js" />
+    <File Path="DataProxyScripts\credentialsAJSApp.js" Url="Lists/DataProxyScripts/credentialsAJSApp.js" />
+    <File Path="DataProxyScripts\credentialsAJSApp.js" Url="DataProxyScripts/credentialsAJSApp.js" />
+  </Module>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DataProxy">
+    <File Path="DataProxy\DataProxy.aspx" Url="Lists/DataProxy/DataProxy.aspx" />
+    <File Path="DataProxy\Scripts\ConfigureMessagingProcessor.js" Url="Lists/DataProxy/Scripts/ConfigureMessagingProcessor.js" />
+    <File Path="DataProxy\Scripts\jquery-2.1.1.js" Url="Lists/DataProxy/Scripts/jquery-2.1.1.js" />
+    <File Path="DataProxy\Scripts\jquery-2.1.1.min.js" Url="Lists/DataProxy/Scripts/jquery-2.1.1.min.js" />
+  </Module>
+</Elements>

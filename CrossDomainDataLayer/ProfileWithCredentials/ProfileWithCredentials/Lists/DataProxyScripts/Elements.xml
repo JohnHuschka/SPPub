@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="DataProxyScripts" OnQuickLaunch="TRUE" TemplateType="101" FeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" Url="Lists/DataProxyScripts" Description="Scripts to interact with data proxy layer"></ListInstance>
+</Elements>

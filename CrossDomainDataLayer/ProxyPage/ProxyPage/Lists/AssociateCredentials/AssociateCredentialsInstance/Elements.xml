@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AssociateCredentials" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/AssociateCredentials" Description="Credentials held by our associates.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Bachelor of Medicine</Field>
+          <Field Name="Associate">-1;#jehcws\ddilbert</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bachelor of Surgery</Field>
+          <Field Name="Associate">-1;#jehcws\ddilbert</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doctor of Medicine (M.D.)</Field>
+          <Field Name="Associate">-1;#jehcws\ddilbert</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bachelor of Science in Nursing (BSN)</Field>
+          <Field Name="Associate">-1;#jehcws\bboulder</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Master of Science in Nursing (MSN)</Field>
+          <Field Name="Associate">-1;#jehcws\bboulder</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doctor of Philosophy in Nursing (PhD)</Field>
+          <Field Name="Associate">-1;#jehcws\bboulder</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doctor of Medicine (M.D.)</Field>
+          <Field Name="Associate">-1;#jehcws\ctaub</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doctor of Medicine (M.D.)</Field>
+          <Field Name="Associate">-1;#jehcws\lsapien</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Fellow, American College of Physicians (FACP)</Field>
+          <Field Name="Associate">-1;#jehcws\lsapien</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Microsoft Certified Solution Developer (MCSD)</Field>
+          <Field Name="Associate">-1;#jehcws\Administrator</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

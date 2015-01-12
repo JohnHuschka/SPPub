@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCA6CBE7-3AA8-42BB-9647-083D776E7624}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProxyPage</RootNamespace>
+    <AssemblyName>ProxyPage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\DataProxyContents\DataProxyContents.feature">
+      <FeatureId>{e0d64197-9b04-497a-a730-0e04076521ab}</FeatureId>
+    </None>
+    <None Include="Lists\AssociateCredentials\AssociateCredentialsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{90a3b5a5-ac44-4437-8b84-5b475a1969a8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\AssociateCredentials\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{477ecd12-05e1-468d-901e-4dc03efc5e9c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\DataProxy\DataProxyInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{820eeed3-e10c-4a2a-89a8-f823c377fb0c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\DataProxy\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{876e2972-0052-4fd0-9f74-69e6f2bb7405}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\DataProxyLibrary\DataProxyLibrary.feature">
+      <FeatureId>{43ae9ecb-452d-4228-bae8-2836eb60177c}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Modules\DataProxy\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d0805fc8-4be6-4c85-8cbe-74c5bb58d327}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{d73785c7-8760-4335-9844-8a492c1b2f83}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\DataProxyContents\DataProxyContents.Template.xml">
+      <DependentUpon>DataProxyContents.feature</DependentUpon>
+    </Content>
+    <Content Include="Lists\AssociateCredentials\AssociateCredentialsInstance\Elements.xml" />
+    <Content Include="Lists\AssociateCredentials\Elements.xml" />
+    <Content Include="Lists\AssociateCredentials\Schema.xml" />
+    <Content Include="Lists\DataProxy\DataProxyInstance\Elements.xml" />
+    <Content Include="Lists\DataProxy\EditDlg.htm" />
+    <Content Include="Lists\DataProxy\Elements.xml" />
+    <Content Include="Lists\DataProxy\FileDlg.htm" />
+    <Content Include="Lists\DataProxy\Repair.aspx" />
+    <Content Include="Lists\DataProxy\Schema.xml" />
+    <Content Include="Lists\DataProxy\Upload.aspx" />
+    <Content Include="Features\DataProxyLibrary\DataProxyLibrary.Template.xml">
+      <DependentUpon>DataProxyLibrary.feature</DependentUpon>
+    </Content>
+    <Content Include="Modules\DataProxy\DataProxy.aspx" />
+    <Content Include="Modules\DataProxy\Elements.xml" />
+    <Content Include="Modules\DataProxy\Scripts\ConfigureMessagingProcessor.js" />
+    <Content Include="Modules\DataProxy\Scripts\jquery-2.1.1.js" />
+    <Content Include="Modules\DataProxy\Scripts\jquery-2.1.1.min.js" />
+    <Content Include="READMEBeforeDeploying.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
