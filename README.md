@@ -7,4 +7,4 @@ Samples in this Repo
 Look at the readme files in each sample for more information on each of them.
 
 - **[Cross Domain Data Layer](CrossDomainDataLayer)**: Demonstrates how to implement a basic SharePoint cross-domain data layer.
-
+- **[Office 365 AngularJS Kendo Sample App](AKDemo)**: A demonstration Office 365, AngularJS, Kendo application.
