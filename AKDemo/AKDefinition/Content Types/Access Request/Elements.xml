@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ContentType ID="0x0100314180C4AEE0264FA76AB4AD6893828E" Name="Access Request" Group="Access Request Content Types" Description="A request for access to available resources" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Folder TargetName="_cts/Access Request" />
+		<FieldRefs>
+			<FieldRef ID="{d47230ba-6ca7-46ea-9377-ecf1cc905f6e}" Name="New_x0020_User_x0020_Name" Required="TRUE"  />
+      <FieldRef ID="{0bad937a-0459-4481-98e1-8135f42cfe3d}" Name="User_x0020_Title" Required="TRUE"  />
+			<FieldRef ID="{dd5ed0f0-4c9d-465a-abac-01fce7f69aea}" Name="User_x0020_Start_x0020_Date" Required="TRUE"  />
+      <FieldRef ID="{d29cb77c-d88a-4bc2-b76b-be82274eaf1e}" Name="Requestor" Required="TRUE"  />
+      <FieldRef ID="{89afa2c8-6563-4cc0-8099-737690e23318}" Name="Previous_x0020_Status" Required="TRUE" />
+      <FieldRef ID="{80809962-21e3-44c3-8ff0-1e2062a21ce6}" Name="Current_x0020_Status" Required="TRUE" />
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="FALSE" Hidden="TRUE" ShowInNewForm="TRUE" ShowInEditForm="TRUE" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" />
+      <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
+    </FieldRefs>
+		<XmlDocuments>
+			<XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+				<FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+					<Display>ListForm</Display>
+					<Edit>ListForm</Edit>
+					<New>ListForm</New>
+				</FormTemplates>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+</Elements>

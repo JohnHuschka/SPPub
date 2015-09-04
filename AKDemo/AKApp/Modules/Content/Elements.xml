@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.common.min.css" Url="Content/kendo.common.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.dataviz.min.css" Url="Content/kendo.dataviz.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.dataviz.default.min.css" Url="Content/kendo.dataviz.default.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.default.min.css" Url="Content/kendo.default.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Default\editor.png" Url="Content/Default/editor.png" ReplaceContent="TRUE" />
+    <File Path="Content\Default\imagebrowser.png" Url="Content/Default/imagebrowser.png" ReplaceContent="TRUE" />
+    <File Path="Content\Default\indeterminate.gif" Url="Content/Default/indeterminate.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\loading-image.gif" Url="Content/Default/loading-image.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\loading.gif" Url="Content/Default/loading.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\loading_2x.gif" Url="Content/Default/loading_2x.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\slider-h.gif" Url="Content/Default/slider-h.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\slider-v.gif" Url="Content/Default/slider-v.gif" ReplaceContent="TRUE" />
+    <File Path="Content\Default\sprite.png" Url="Content/Default/sprite.png" ReplaceContent="TRUE" />
+    <File Path="Content\Default\sprite_2x.png" Url="Content/Default/sprite_2x.png" ReplaceContent="TRUE" />
+    <File Path="Content\Default\sprite_kpi.png" Url="Content/Default/sprite_kpi.png" ReplaceContent="TRUE" />
+    <File Path="Content\Default\sprite_kpi_2x.png" Url="Content/Default/sprite_kpi_2x.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.min.js" Url="Scripts/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Controllers\AccessRequestController.js" Url="Scripts/Controllers/AccessRequestController.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\index.html" Url="Scripts/jquery-ui-1.11.3/index.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.js" Url="Scripts/jquery-ui-1.11.3/jquery-ui.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.min.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.min.js" Url="Scripts/jquery-ui-1.11.3/jquery-ui.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.structure.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.structure.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.structure.min.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.structure.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.theme.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.theme.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\jquery-ui.theme.min.css" Url="Scripts/jquery-ui-1.11.3/jquery-ui.theme.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\external\jquery\jquery.js" Url="Scripts/jquery-ui-1.11.3/external/jquery/jquery.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_444444_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_444444_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_555555_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_555555_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_777620_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_777620_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_777777_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_777777_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_cc0000_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_cc0000_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui-1.11.3\images\ui-icons_ffffff_256x240.png" Url="Scripts/jquery-ui-1.11.3/images/ui-icons_ffffff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\KendoUI\kendo.all.min.js" Url="Scripts/KendoUI/kendo.all.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

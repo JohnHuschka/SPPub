@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="AMApp"
+     ProductID="{6bca3b21-44b8-40ea-8be6-2de9857b2c11}"
+     Version="1.0.2.19"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>Access Management App</Title>
+    <StartPage>~appWebUrl/Pages/NewAccessRequest.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Write" />
+  </AppPermissionRequests>
+</App>

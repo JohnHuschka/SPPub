@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FBC87AD-95F1-45DE-AA9B-F0EAAA342381}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AKDefinition</RootNamespace>
+    <AssemblyName>AccessManagementDefinition</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\AMSiteDefinitionFeature\AMSiteDefinitionFeature.EventReceiver.cs">
+      <DependentUpon>AMSiteDefinitionFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\AMWebDefinitionFeature\AMWebDefinitionFeature.EventReceiver.cs">
+      <DependentUpon>AMWebDefinitionFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content Types\Access Request Resource\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{15898ca6-03ac-4c53-ad97-2dc600807a4f}</SharePointProjectItemId>
+    </None>
+    <None Include="Content Types\Access Request\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{42930378-9fc3-4752-90f5-5712e2ec62db}</SharePointProjectItemId>
+    </None>
+    <None Include="Content Types\Access Resource\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{065859fa-c41b-410a-87e3-df84793a2e6d}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\AMSiteDefinitionFeature\AMSiteDefinitionFeature.feature">
+      <FeatureId>{df6b62dc-5b93-4f87-9f19-a59be4f36bc2}</FeatureId>
+    </None>
+    <None Include="Features\AMWebDefinitionFeature\AMWebDefinitionFeature.feature">
+      <FeatureId>{fd3e2cef-7b38-4f39-9bb8-bcf71b85824c}</FeatureId>
+    </None>
+    <None Include="Fields\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cd89b236-644f-4a59-bad6-982f706f2ea1}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Lists\Access Request Details\ListsAccess Request Details_pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{abb2a192-3c14-4d28-a99c-441eead9e0b1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Access Request Details\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1d06abfb-88a8-47db-8073-95fd24b327fb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Access Requests\ListsAccess Requests_pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{993a4986-2524-4e9c-a05f-c2008ad9f5fb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Access Requests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b4520b98-6de4-42e7-8361-74821ac88fba}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Access Resources\ListsAccess Resources_pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{398f50f8-1163-4360-9a3a-ff28a92059d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Access Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dda8e850-abfb-4de1-84ca-935512ca114a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Departments\ListsDepartments_pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3ac260a0-e382-4d03-a8f9-6c6bd51ea4f0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Departments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a0d8815-5433-4d6e-a1d3-0611762183fd}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{a1c2bc2c-9791-4d2c-a4d1-013c5425fe37}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content Types\Access Request Resource\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content Types\Access Request\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content Types\Access Resource\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\AMSiteDefinitionFeature\AMSiteDefinitionFeature.Template.xml">
+      <DependentUpon>AMSiteDefinitionFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\AMWebDefinitionFeature\AMWebDefinitionFeature.Template.xml">
+      <DependentUpon>AMWebDefinitionFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Fields\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Request Details\Elements.xml" />
+    <Content Include="Lists\Access Request Details\ListsAccess Request Details_pages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Request Details\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Requests\Elements.xml" />
+    <Content Include="Lists\Access Requests\ListsAccess Requests_pages\Elements.xml" />
+    <Content Include="Lists\Access Requests\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Resources\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Resources\ListsAccess Resources_pages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Access Resources\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Departments\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Departments\ListsDepartments_pages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Departments\Schema.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

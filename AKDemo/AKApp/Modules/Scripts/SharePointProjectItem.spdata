@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Controllers\AccessRequestController.js" Target="Scripts\Controllers\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\index.html" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.js" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.min.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.min.js" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.structure.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.structure.min.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.theme.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\jquery-ui.theme.min.css" Target="Scripts\jquery-ui-1.11.3\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\external\jquery\jquery.js" Target="Scripts\jquery-ui-1.11.3\external\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_444444_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_555555_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_777620_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_777777_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_cc0000_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui-1.11.3\images\ui-icons_ffffff_256x240.png" Target="Scripts\jquery-ui-1.11.3\images\" Type="ElementFile" />
+    <ProjectItemFile Source="KendoUI\kendo.all.min.js" Target="Scripts\KendoUI\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

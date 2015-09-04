@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ContentType ID="0x010016034FD5B4F3C64FB1B143BFB80D1CF7" Name="Access Resource" Group="Access Request Content Types" Description="Represents a resource for which access can be requested and granted" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Folder TargetName="_cts/Access Resource" />
+		<FieldRefs>
+			<FieldRef ID="{7e956ecf-383c-4307-97c6-5f22c84af848}" Name="Access_x0020_Resource" Required="TRUE"  />
+			<FieldRef ID="{afdea492-2c56-42e2-8413-b6ce04071d5c}" Name="Access_x0020_Resource_x0020_Description"  />
+			<FieldRef ID="{79f257b3-a217-41a3-a5b8-5e3673ebfa22}" Name="Standard_x0020_Resource"  />
+			<FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="FALSE" Hidden="TRUE" ShowInNewForm="TRUE" ShowInEditForm="TRUE" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" />
+			<FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
+		</FieldRefs>
+		<XmlDocuments>
+			<XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+				<FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+					<Display>ListForm</Display>
+					<Edit>ListForm</Edit>
+					<New>ListForm</New>
+				</FormTemplates>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+</Elements>

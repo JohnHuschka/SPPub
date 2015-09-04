@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Access Resources" Description="" Url="Lists/Access Resources" CustomSchema="Files\Lists\Access Resources\Schema.xml" HyperlinkBaseUrl="https://cwsoft.sharepoint.com/sites/cohealthdev/amp2" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>					
+					<Field Name="Access_x0020_Resource">Active Directory</Field>
+					<Field Name="Standard_x0020_Resource">TRUE</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">Conf Calling</Field>
+					<Field Name="Standard_x0020_Resource">TRUE</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">GoToMeeting</Field>
+					<Field Name="Standard_x0020_Resource">FALSE</Field>
+					<Field Name="ID">10</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">1000.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">10_.000</Field>
+					<Field Name="MetaInfo">10;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">Key Card</Field>
+					<Field Name="Standard_x0020_Resource">TRUE</Field>
+					<Field Name="ID">17</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">1700.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">17_.000</Field>
+					<Field Name="MetaInfo">17;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">Videoconferencing</Field>
+					<Field Name="Standard_x0020_Resource">FALSE</Field>
+					<Field Name="ID">44</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">4400.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">44_.000</Field>
+					<Field Name="MetaInfo">44;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">Visual Studio</Field>
+					<Field Name="Standard_x0020_Resource">FALSE</Field>
+					<Field Name="ID">45</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">4500.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">45_.000</Field>
+					<Field Name="MetaInfo">45;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">Voicemail Account</Field>
+					<Field Name="Standard_x0020_Resource">TRUE</Field>
+					<Field Name="ID">46</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">4600.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">46_.000</Field>
+					<Field Name="MetaInfo">46;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010016034FD5B4F3C64FB1B143BFB80D1CF700FBE138DF5398344BB2A7ED0E0088C107</Field>
+					<Field Name="Access_x0020_Resource">VPN</Field>
+					<Field Name="Standard_x0020_Resource">TRUE</Field>
+					<Field Name="ID">47</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">4700.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">47_.000</Field>
+					<Field Name="MetaInfo">47;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

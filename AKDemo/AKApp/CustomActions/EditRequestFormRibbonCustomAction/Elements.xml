@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="05c5951a-71ca-410c-a350-58d853e0aa9d.EditRequestFormRibbonCustomAction"
+                RegistrationType="ContentType"
+                RegistrationId="0x0100314180C4AEE0264FA76AB4AD6893828E"
+                Location="CommandUI.Ribbon"
+                Sequence="10010"
+                Rights="EditListItems"
+                Title="Invoke &apos;EditRequestFormRibbonCustomAction&apos; action">
+    <CommandUIExtension>
+      <!-- 
+      Update the UI definitions below with the controls and the command actions
+      that you want to enable for the custom action.
+      -->
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListItem.Actions.Controls._children">
+          <Button Id="Ribbon.ListItem.Actions.EditRequestFormRibbonCustomActionButton"
+                  Alt="Manage Access Request"
+                  Sequence="100"
+                  Command="Invoke_EditRequestFormRibbonCustomActionButtonRequest"
+                  LabelText="Manage Access Request"
+                  TemplateAlias="o1"
+                  Image32by32="_layouts/15/images/placeholder32x32.png"
+                  Image16by16="_layouts/15/images/placeholder16x16.png" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_EditRequestFormRibbonCustomActionButtonRequest"
+                          CommandAction="~appWebUrl/Pages/NewAccessRequest.aspx?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"
+                          EnabledScript="javascript:function() {
+                          var clientContext = SP.ClientContext.get_current();
+                          var selectedItems = SP.ListOperation.Selection.getSelectedItems(clientContext);
+                          var ci = CountDictionary(selectedItems);
+                          return (ci == 1);
+                          };" />
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+</Elements>

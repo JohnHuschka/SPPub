@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Note"
+         DisplayName="Access Resource Description"
+         Description="A description of the access resource"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         NumLines="5"
+         RichText="FALSE"
+         Sortable="FALSE"
+         Group="Access Request Site Columns"
+         ID="{afdea492-2c56-42e2-8413-b6ce04071d5c}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="Access_x0020_Resource_x0020_Description"
+         Name="Access_x0020_Resource_x0020_Description"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="Text"
+         DisplayName="Access Resource Name"
+         Description="The name of the resource for which access is being requested"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="Access Request Site Columns"
+         ID="{7e956ecf-383c-4307-97c6-5f22c84af848}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="Access_x0020_Resource"
+         Name="Access_x0020_Resource"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="Text"
+         DisplayName="New User Name"
+         Description="The name of the new user for whom access is being requested"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="Access Request Site Columns"
+         ID="{d47230ba-6ca7-46ea-9377-ecf1cc905f6e}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="New_x0020_User_x0020_Name"
+         Name="New_x0020_User_x0020_Name"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="User"
+         DisplayName="Requestor"
+         List="UserInfo"
+         Description="The name of the new user for whom access is being requested"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         ShowField="ImnName"
+         UserSelectionMode="PeopleOnly"
+         UserSelectionScope="0"
+         Group="Access Request Site Columns"
+         ID="{d29cb77c-d88a-4bc2-b76b-be82274eaf1e}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="Requestor"
+         Name="Requestor"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="Boolean"
+         DisplayName="Standard Resource"
+         Description="Indicates that the resource is standard (access is granted by default to new users)"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Group="Access Request Site Columns"
+         ID="{79f257b3-a217-41a3-a5b8-5e3673ebfa22}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="Standard_x0020_Resource"
+         Name="Standard_x0020_Resource"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>0</Default>
+  </Field>
+  <Field Type="DateTime"
+         DisplayName="User Start Date"
+         Description="The user's start date"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="DateOnly"
+         Group="Access Request Site Columns"
+         FriendlyDisplayFormat="Disabled"
+         ID="{dd5ed0f0-4c9d-465a-abac-01fce7f69aea}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="User_x0020_Start_x0020_Date"
+         Name="User_x0020_Start_x0020_Date"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="Text"
+         DisplayName="User Title"
+         Description="The user's job title"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="Access Request Site Columns"
+         ID="{0bad937a-0459-4481-98e1-8135f42cfe3d}"
+         SourceID="{b7c9c895-d4b3-43d0-8058-70cfc0c784c7}"
+         StaticName="User_x0020_Title"
+         Name="User_x0020_Title"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  <Field Type="Choice"
+         DisplayName="Previous Detail Status"
+         Description="The previous detail status"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Dropdown"
+         FillInChoice="FALSE"
+         Group="Access Request Site Columns"
+         ID="{b1317455-0266-470b-839f-fc5351879ccc}"
+         SourceID="{064e7f2e-cf13-4d6e-b81e-700dcc4a8128}"
+         StaticName="Previous_x0020_Detail_x0020_Status"
+         Name="Previous_x0020_Detail_x0020_Status"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>Pending Approval</Default>
+    <CHOICES>
+      <CHOICE>Pending Approval</CHOICE>
+      <CHOICE>Approved</CHOICE>
+      <CHOICE>Rejected</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Choice"
+         DisplayName="Previous Status"
+         Description="The previous status"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Dropdown"
+         FillInChoice="FALSE"
+         Group="Access Request Site Columns"
+         ID="{89afa2c8-6563-4cc0-8099-737690e23318}"
+         SourceID="{3281632d-1b2a-4707-8396-c7a336205874}"
+         StaticName="Previous_x0020_Status"
+         Name="Previous_x0020_Status"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>Pending Supervisor Approval</Default>
+    <CHOICES>
+      <CHOICE>Pending Supervisor Approval</CHOICE>
+      <CHOICE>Supervisor Approved</CHOICE>
+      <CHOICE>Supervisor Rejected</CHOICE>
+      <CHOICE>Ready to Provision</CHOICE>
+      <CHOICE>Provisioning Complete</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Choice"
+         DisplayName="Current Detail Status"
+         Description="The current detail status"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Dropdown"
+         FillInChoice="FALSE"
+         Group="Access Request Site Columns"
+         ID="{9bec26a1-6204-4bf2-a4ac-d2c8f2b88aa2}"
+         SourceID="{064e7f2e-cf13-4d6e-b81e-700dcc4a8128}"
+         StaticName="Current_x0020_Detail_x0020_Status"
+         Name="Current_x0020_Detail_x0020_Status"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>Pending Approval</Default>
+    <CHOICES>
+      <CHOICE>Pending Approval</CHOICE>
+      <CHOICE>Approved</CHOICE>
+      <CHOICE>Rejected</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Choice"
+         DisplayName="Current Status"
+         Description="The current status"
+         Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Dropdown"
+         FillInChoice="FALSE"
+         Group="Access Request Site Columns"
+         ID="{80809962-21e3-44c3-8ff0-1e2062a21ce6}"
+         SourceID="{3281632d-1b2a-4707-8396-c7a336205874}"
+         StaticName="Current_x0020_Status"
+         Name="Current_x0020_Status"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>Pending Supervisor Approval</Default>
+    <CHOICES>
+      <CHOICE>Pending Supervisor Approval</CHOICE>
+      <CHOICE>Supervisor Approved</CHOICE>
+      <CHOICE>Supervisor Rejected</CHOICE>
+      <CHOICE>Ready to Provision</CHOICE>
+      <CHOICE>Provisioning Complete</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

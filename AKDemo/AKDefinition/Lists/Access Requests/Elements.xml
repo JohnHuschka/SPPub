@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Access Requests" Description="" Url="Lists/Access Requests" CustomSchema="Files\Lists\Access Requests\Schema.xml" HyperlinkBaseUrl="https://cwsoft.sharepoint.com/sites/cho/amp" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">		
+	</ListInstance>
+</Elements>

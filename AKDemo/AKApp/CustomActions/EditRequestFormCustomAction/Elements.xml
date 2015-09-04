@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="bf0a6435-8276-4462-9c07-cf72f4b84d61.EditRequestFormCustomAction"
+                RegistrationType="ContentType"
+                RegistrationId="0x0100314180C4AEE0264FA76AB4AD6893828E"
+                Location="EditControlBlock"
+                Description="Edit the Access Request in the official Access Request form"
+                Sequence="10114"
+                Rights="EditListItems"
+                Title="Edit Access Request Form">
+    <UrlAction Url="~appWebUrl/Pages/NewAccessRequest.aspx?{StandardTokens}&amp;SPListItemId={ItemId}&amp;SPListId={ListId}" />
+  </CustomAction>
+</Elements>

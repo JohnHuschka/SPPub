@@ -1,0 +1,148 @@
+﻿/* Place custom styles below */
+h1 {
+    color: rgb(0,114,198);
+    font-size: 30pt;
+}
+
+.AccessRequestFormPageHeader { 
+    min-height: 100px; 
+    background-color: rgb(0, 114, 198);
+}
+
+.AccessRequestFormPageFooter { 
+    min-height: 30px; 
+    background-color: rgb(0, 114, 198);
+}
+
+.AccessRequestFormPage
+{
+    background:rgb(240,240,240);
+}
+
+.AccessRequestFormPageBody
+{
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+	border-left: 1px solid #C7C7C7;
+	border-right: 1px solid #C7C7C7;
+    margin-top: -80px;
+    min-height:1000px;
+}
+
+.AccessRequestFormPageBodySection {
+    padding: 10px;
+}
+
+.AccessRequestFormPageBodySection p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.AccessRequestFormPageBodySection input {
+    width:95%;
+}
+
+.AccessRequestFormPageBodySection select {
+    width:95%;
+}
+
+.AccessRequestFormPageBodySectionHalf {
+    padding:10px;
+    width: 46%;
+    float: left;
+}
+
+.AccessRequestFormPageBodySectionHalf p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.AccessRequestFormPageBodySectionHalf input {
+    width:95%;
+}
+
+.AccessRequestFormPageBodySectionHalf select {
+    width:95%;
+}
+
+.AccessRequestFormPageBodySectionHeader {
+    background-color: rgb(0, 114, 198);
+    color: white !important;
+    font-size: 18pt;
+    font-weight: bold;
+    min-height:40px;
+    padding-left:10px;
+}
+
+.AccessRequestFormPageBodySectionHeader h3 {    
+    color: white !important;    
+}
+
+/* "Important" is needed to override a style we are getting from ASP.NET.  */
+.AccessRequestFormReadOnlyField {
+    background-color: #e3e3e3  !important;
+    min-height:22px;
+}
+
+.AccessRequestFormPageBodySectionSeparator {
+    min-height:20px;
+    clear:both;     
+}
+
+.AccessRequestFormSaveButton {
+    float:right;
+    background-color: rgb(0,114,218) !important;
+    color:white !important;
+    font-size: 12pt !important;
+    margin-right:15px;
+    margin-top: 15px;
+}
+
+.AccessRequestApprovalSectionHeader {
+    background-color: rgb(0, 114, 198);
+    color: white !important;
+    font-size: 18pt;
+    font-weight: bold;
+    min-height:40px;
+    padding-left:10px;
+}
+
+.AccessRequestApprovalSectionHeader h3 {    
+    color: white !important;    
+}
+
+.AccessRequestFormApprovalSectionBody {
+    padding: 10px;
+}
+
+.AccessRequestFormApprovalSectionBody td {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.AccessRequestFormApprovalSaveButton {
+    background-color: rgb(0,114,218) !important;
+    color:white !important;
+    font-size: 12pt !important;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.AccessRequestApproval {
+    display: none;
+}
+
+.AccessRequestFormSaveSection td {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/*table tr td{
+    border: 1px solid red;
+}*/
